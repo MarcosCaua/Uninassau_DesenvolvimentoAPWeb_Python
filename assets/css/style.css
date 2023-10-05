@@ -1,0 +1,279 @@
+/*Configs======================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem;
+    color: #000000;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    background-image: linear-gradient(#D0D4D7, #06F3482B);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+
+
+ul li img {
+    width: 5rem;
+    height: 5rem;
+}
+
+
+li img {
+    border-radius: 50%;
+}
+
+.barra-menu {
+    display: flex;
+    margin-top: -4.5rem;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+nav {
+    position: fixed;
+    z-index: 2;
+}
+
+li,
+a {
+    list-style: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+
+.nav-links {
+   text-decoration: none;
+   color: white; 
+   transition: 0.5s;
+}
+
+.nav-links:hover {
+    scale: 1.1;
+}
+
+/*Introdução Main=========================================================*/
+
+.main-intro-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 100px;
+    
+}
+
+.main-intro {
+    padding: 80px 0px;
+}
+
+.inicio {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-flow: column wrap;
+}
+
+button {
+    background-color: #ffffff;
+    border-radius: 4rem;
+    width: 15rem;
+    height: 4rem;
+    border: 0;
+    color: #000000;
+    margin-top: 5rem;
+    margin-bottom: 25rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #33333336;
+    border: 0.1rem solid rgba(185, 185, 185, 0.479);
+}
+
+.inicio p {
+    max-width: 45rem;
+    
+}
+
+.inicio h1 {
+    margin-top: 25rem;
+}
+
+
+
+/*section ===========================================================*/
+
+
+
+.img-ong img {
+    height: 20rem;
+    width: 35rem;
+    margin-left: 3rem;
+    background-color: #ffffff;
+}
+
+.img-ong {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sobre {
+    margin-top: 8rem;
+    padding-bottom: 25rem;
+}
+
+.margin-top {
+    height: 60px;
+    width: auto;
+}
+
+.sobre h1 {
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+}
+.sobre p{
+    text-align:justify;
+}
+
+.sobre .img-ong {
+    margin-bottom: 8rem;
+}
+
+.background-transp {
+    background-color: #ffffff62;
+    height: 75rem;
+    width: 108rem;
+    padding: 10rem;
+    border-radius: 4rem;
+    margin-left: -4rem;
+}
+
+
+/*Representantes=======================*/
+
+
+.representantes h1 {
+    margin-bottom: 5rem;
+}
+
+.card {
+    height: 45rem;
+    width: 23rem;
+    margin: 3rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
+
+
+}
+
+.card-circle {
+    height: 10rem;
+    width: 10rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+
+
+}
+
+.card p {
+    font-size: 1.3rem;
+    max-width: 30rem;
+    text-align: center;
+    margin-left: -4rem;
+}
+
+.card h2 {
+    margin-left: -4.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+/*Faça sua parte=================================*/
+
+.help-container {
+    padding: 20px 0px;
+}
+
+.help-container-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    gap: 20px;
+}
+
+.help-card {
+    background-color: #ffffff62;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.help-card:hover {
+    background-color: #adabab62;
+}
+
+
+
+/*Detalhes====================*/
+
+.main-title::after {
+    content: " ";
+    display: block;
+    height: 0.4rem;
+    width: 7rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+/*Responsivo==================================*/
